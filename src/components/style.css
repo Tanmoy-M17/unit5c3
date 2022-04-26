@@ -1,7 +1,7 @@
 .Nav{
     display: flex;
-    width: 300px;
+    width: 350px;
     margin: auto;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: rgb(177, 135, 80);
 }

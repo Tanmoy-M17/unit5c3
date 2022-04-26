@@ -20,6 +20,14 @@ function App() {
 
       <Routes>
 
+        
+        <Route path='/' element={<Home />}></Route>
+        
+        <Route path='/employees' element={<EmployeeList />}></Route>
+        <Route path='/admin' element={<Admin />}></Route>
+        <Route path='/login' element={<Login />}></Route>
+        <Route path='/logout' element={<Logout />}></Route>
+
         <Route path='/employees/:id' element={
           <PrivateComponent>
             <EmployeeDetails />
@@ -27,12 +35,6 @@ function App() {
 
         </Route>
 
-        <Route path='/' element={<Home />}></Route>
-        
-        <Route path='/employees' element={<EmployeeList />}></Route>
-        <Route path='/admin' element={<Admin />}></Route>
-        <Route path='/login' element={<Login />}></Route>
-        <Route path='/logout' element={<Logout />}></Route>
        
       </Routes>
 
